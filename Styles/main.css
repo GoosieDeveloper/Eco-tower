@@ -1,0 +1,114 @@
+.main {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+/* Picture & background */
+
+.img-container{
+    width: 40%;
+    height: 100%;
+}
+
+.salad {
+    position: absolute;
+    top: 380px;
+    left: 150px;
+}
+
+.egg {
+    position: absolute;
+    top: 340px;
+    left: 230px;
+    width: 320px;
+    height: 600px;
+    background-color: rgba(38, 99, 56, 0.9);
+    z-index: -1;
+    border-radius: 60% 50% 40% 60% / 50% 80% 40% 60%;
+}
+
+.eggg {
+    position: absolute;
+    top: 350px;
+    left: 220px;
+    width: 320px;
+    height: 560px;
+    rotate: -46deg;
+    background-color: rgba(51, 151, 81, 0.82);
+    z-index: -2;
+    border-radius: 60% 50% 40% 60% / 50% 80% 40% 60%;
+}
+
+.egggg {
+    position: absolute;
+    top: 390px;
+    left: 240px;
+    width: 320px;
+    height: 560px;
+    rotate: -112deg;
+    background-color: rgba(55, 134, 79, 0.75);
+    z-index: -3;
+    border-radius: 100% 50% 90% 90% / 50% 100% 30% 60%;
+}
+
+/* Main-text */
+
+.text-container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.title-container {
+  font-size: 48px; 
+  margin: 0 0 20px 0;
+  font-weight: 700;
+  color: #222;
+}
+
+.desc-container {
+    font-size: 36px; 
+    font-weight: 600;
+    color: #222;
+}
+
+.highlight {
+    position: relative;
+}
+  
+.highlight::before {
+    content: '';
+    position: absolute;
+    bottom: 0.25em; 
+    left: 0;
+    width: 100%;
+    height: 0.25em; 
+    background-image: linear-gradient(to left, rgba(34, 156, 71, 0.55), rgba(38, 99, 56, 0.65));
+    rotate: 0.8deg;
+    z-index: -1;
+}
+  
+/* Button */
+
+.btn-check {
+    width: 220px;
+    height: 80px;
+    border-radius: 48px;
+    margin-top: 40px;
+    background: #22a647;
+    color: #222;
+    font-weight: 800;
+    font-size: 18px;
+    transition: 0.4s;
+    cursor: pointer;
+}
+
+.btn-check:hover {
+    background: #22c947;
+    color: #444;
+}

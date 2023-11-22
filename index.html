@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <title>Eco-Tower</title>
+
+    <!--CSS-->
+    <link rel="stylesheet" href="Styles/website.css" >
+    <link rel="stylesheet" href="Styles/header.css" >
+    <link rel="stylesheet" href="Styles/main.css" >
+    <link rel="stylesheet" href="Styles/about.css" >
+    <link rel="stylesheet" href="Styles/versions.css" >
+    <link rel="stylesheet" href="Styles/contact.css" >
+    <!--BoxIcons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' >
+</head>
+
+<body>
+    <div class="svg">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#7fc66b" fill-opacity="1" d="M0,256L34.3,229.3C68.6,203,137,149,206,128C274.3,107,343,117,411,154.7C480,192,549,256,617,266.7C685.7,277,754,235,823,202.7C891.4,171,960,149,1029,165.3C1097.1,181,1166,235,1234,234.7C1302.9,235,1371,181,1406,154.7L1440,128L1440,0L1405.7,0C1371.4,0,1303,0,1234,0C1165.7,0,1097,0,1029,0C960,0,891,0,823,0C754.3,0,686,0,617,0C548.6,0,480,0,411,0C342.9,0,274,0,206,0C137.1,0,69,0,34,0L0,0Z"></path></svg>
+    </div>
+
+    <header class="header">
+        <nav class="navbar">
+                <a href=".about">About</a>
+                <a href=".versions">Versions</a>
+                <a href=".contact">Contact</a>
+                <a href="#" class="shopping-cart"><i class='bx bxs-cart'></i></a>
+               
+               
+        </nav>
+    </header>
+
+
+    <section class="main">  
+ 
+        <div class="img-container">
+            <img src="images/product.png" alt="" class="salad">
+            <div class="egg"></div>
+            <div class="eggg"></div>
+            <div class="egggg"></div>
+        </div>
+
+       
+        <div class="text-container">
+            <div class="title-container">
+                <h1>Welcome to the <span class="highlight">future</span> of gardening!</h1>
+            </div>
+            <div class="desc-container">
+                <p>Tired of normal non-efficient gardening which takes a lot of space?
+                    <br>
+                    Let me introduce you to our Eco-Tower!
+                    <br>
+                    <button type="button" onclick="scrollToVersions()" class="btn-check">Check out now!</button>
+
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about">
+        <div class="about-title-container">
+            <h1>What's a vertical gardening?</h1>
+        </div>
+        <div class="flex-container">
+            <div class="flex">
+
+                <div class="img-one">
+                    <img src="images/image-one.png" alt="" class="image-one"></img>
+                </div>
+
+                 <div class="text-one">
+                    <p>Aren't you tired of tradicional gardening rows which takes a lot of space and require a piece of ground?
+                        Escape traditional constraints with our vertical gardening tower, perfect for growing plants indoors.
+                    </p>
+                </div>    
+            </div>
+
+            <div class="flex">
+                <div class="text-two">
+                    <p>Don't have a piece of land do grow your own eco-friendly groceries without chemicals which are used in today's vegies?
+                        No problem! with our vertical gardening tower you can grow your own groceries even in your home!
+                    </p>
+                </div>
+
+                <div class="img-two">
+                    <img src="images/image-two.png" alt="" class="image-two"></img>
+                </div>
+            </div>  
+             
+            <div class="flex-three">
+                <div class="img-three">
+                    <img src="images/image-three.png" alt="" class="image-three">
+                </div>
+
+                <div class="text-three">
+                    <p>Elevate your space with our Vertical Gardening Tower – a revolution in home gardening. Grow organic produce indoors, 
+                        free from chemicals, and revel in the joy of cultivating your own oasis. Redefine your lifestyle with our space-saving solution – order now!
+                    </p>
+                </div>
+
+            </div>
+            <div class="flex-four">
+                <div class="arrow-one">
+                    <svg width="300px" height="400px" viewBox="0 0 500 600" xmlns="http://www.w3.org/2000/svg">
+                        <g transform="scale(1, -1) translate(0, -600)">       
+                            <path fill="none" stroke="#222" stroke-width="5" stroke-dasharray="10,10"d="M10,550 L210,550 Q310,550 310,450 L310,350 L310,250" 
+                            />             
+                            <polygon points="310,250 320,265 300,265" fill="#222" transform="translate(0, -10)"
+                            />
+                        </g>
+                    </svg>
+                </div>
+
+                <button type="button" onclick="scrollToVersions()" class="btn-check-two">Check out now!</button>
+                
+                <div class="arrow-two">
+                    <svg width="300px" height="400px" viewBox="0 0 500 600" xmlns="http://www.w3.org/2000/svg">
+                        <g transform="scale(1, -1) translate(0, -600)">
+                            <path fill="none" stroke="#222" stroke-width="5" stroke-dasharray="10,10"d="M10,550 L210,550 Q310,550 310,450 L310,350 L310,250" 
+                            />
+                            <polygon points="310,250 320,265 300,265" fill="#222" transform="translate(0, -10)"
+                            />
+                        </g>
+                    </svg>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="versions" id="versions-section">
+        <div class="versions-title-container">
+            <h1>Pick <span class="highlight">the best</span> version for You!</h1>
+        </div>
+        <div class="versions-container">
+
+            <div class="card">
+                <h2 class="card-name">Small Tower</h2>
+                <img src="images/small-prdocuct.png" alt="" class="card-img">
+                <div class="card-body">
+                    <h1 class="card-title">12 Plant Tower</h1>
+                    <p class="card-desc">Don't have much space in your apartment? no problem with our smallest eco-tower which fits everywhere!</p>
+                    <button type="button" class="small-product-button">Buy now!</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2 class="card-name">Standard Tower </h2>
+                <img src="images/normal-rpdouct.png" alt="" class="card-img">
+                <div class="card-body">
+                    <h1 class="card-title">20 Plant Tower</h1>
+                    <p class="card-desc">Want a monthy supply of vegies for 2 adults? Say no more and buy a standard eco-tower!</p>
+                    <button type="button" class="standard-product-button">Buy now!</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <h2 class="card-name">Large Tower</h2>
+                <img src="images/big-product.png" alt="" class="card-img">
+                <div class="card-body">
+                    <h1 class="card-title">28 Plant Tower</h1>
+                    <p class="card-desc">Have a family or need a lot of vegies? also no problem! buy a large gardening-tower and have up to 2 plants in just one tower!</p>
+                    <button class="big-product-button" id="versions-section">Buy now!</button>
+                </div>
+            </div>
+        </div>
+    </section>
+     
+
+    <section class="contact">
+
+        <div class="contact-container">
+           <div class="contct-info">
+                <h1 class="contact-title">Any additional questions?</h1>
+                <p>Have a specific questions? contact us and our sales assistant will asnwer you directyly!</p>
+           </div>
+           
+            <div class="wrapper">
+                <input type="text" name="email" placeholder="Your email.."> 
+                <textarea  name="message" rows="5" cols="40" placeholder="Message"></textarea>
+                <button type="submit" value="Submit">Send Message</button>
+            </div>
+        </div>
+    </section>
+
+
+    <footer>
+        <p>&copy; 2023 Eco-Tower. All rights restricted.</p>
+    </footer>
+    <script src="app.js"></script>
+</body>
+</html>

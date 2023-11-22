@@ -1,0 +1,79 @@
+.header {
+    position: relative;
+    width: 100%;
+    padding: 20px 10%;
+    margin-top: 30px;
+    background: transparent;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    top: 0;
+}
+
+.shopping-cart {
+    align-items: flex-end;
+}
+
+.navbar {
+    margin-left: 1px;
+}
+
+.navbar a {
+    font-size: 30px;
+    color: #222;
+    text-decoration: none;
+    font-weight: 700;
+    padding: 10px 12px;
+    float: left;
+}
+
+.navbar a:nth-child(1) {
+    margin-right: 200px;
+    margin-left: 500px;
+}
+
+.navbar a:nth-child(2) {
+    margin: auto;
+}
+
+.navbar a:nth-child(3) {
+   margin-left: 200px;
+}
+
+.navbar a:nth-child(4) {
+    margin-left: 310px;
+}
+
+/* Navbar hover */
+
+.navbar a {
+  color: #000;
+  position: relative;
+  text-decoration: none;
+}
+
+.navbar a::before {
+    position: absolute;
+    content: "";
+    background: linear-gradient(to left, rgba(34, 156, 71, 0.55), rgba(38, 99, 56, 0.65));
+    inset: 0;
+    height: 0.5em; 
+    transform: scaleX(0);
+    transform-origin: center bottom;
+    transition: transform 0.5s ease-in-out;
+    z-index: -1;
+    top: 60%; 
+}
+  
+.navbar a:hover::before {
+    transform: scaleX(1); /* Use scaleY instead of scaleX */
+    transform-origin: left;
+}
+  
+.svg {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
